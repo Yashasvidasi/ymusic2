@@ -1,41 +1,29 @@
----
-
 ## 📈 Screen-Shots
 
-1. ![d](images/IMG-20241028-WA0011.jpg)
+### **Album Page**
+![d](images/IMG-20241028-WA0011.jpg)
 
-- **Album Page**
+### **Playlist Test**
+![d](images/IMG-20241028-WA0013.jpg)
 
-2. ![d](images/IMG-20241028-WA0013.jpg)
+### **Artist Page**
+![d](images/IMG-20241028-WA0014.jpg)
 
-- **Playlist Test**
+### **Search Query**
+![d](images/IMG-20241028-WA0012.jpg)
 
-3. ![d](images/IMG-20241028-WA0014.jpg)
+### **Search Page**
+![Dd](images/IMG-20241028-WA0015.jpg)
 
-- **Artist Page**
+### **Downloads Page**
+![d](images/IMG-20241028-WA0016.jpg)
 
-4. ![d](images/IMG-20241028-WA0012.jpg)
+### **Player**
+![d](images/IMG-20241028-WA0017.jpg)
 
-- **Search Query**
+### **History Page**
+![d](images/IMG-20241028-WA0018.jpg)
 
-5. ![Dd](images/IMG-20241028-WA0015.jpg)
+### **Picks Page**
+![d](images/IMG-20241028-WA0019.jpg)
 
-- **Search Page**
-
-6. ![d](images/IMG-20241028-WA0016.jpg)
-
-- **Downloads Page**
-
-7. ![d](images/IMG-20241028-WA0017.jpg)
-
-- **Player**
-
-8. ![d](images/IMG-20241028-WA0018.jpg)
-
-- **History Page**
-
-9. ![d](images/IMG-20241028-WA0019.jpg)
-
-- **Picks Page**
-
----
