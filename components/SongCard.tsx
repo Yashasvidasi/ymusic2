@@ -2,11 +2,6 @@ import {View, Text, Image, TouchableHighlight} from 'react-native';
 import React, {useEffect, useState, memo} from 'react';
 import {useNavigation} from '@react-navigation/native';
 import {StackActions} from '@react-navigation/native';
-import 'event-target-polyfill';
-import 'web-streams-polyfill';
-import 'text-encoding-polyfill';
-import 'react-native-url-polyfill/auto';
-import Innertube from 'youtubei.js';
 import TrackPlayer from 'react-native-track-player';
 import {MMKV} from 'react-native-mmkv';
 
@@ -100,7 +95,8 @@ const SongCard = (props: {
         duration: getstring.duration,
       };
     } else {
-      const url = `https://yt-api.p.rapidapi.com/dl?id=${props.id}`;
+      console.log('herere');
+      const url = `https://yt-api.p.rapidapi.com/dl?id=${props.id}&cgeo=IN`;
       let data;
       const options = {
         method: 'GET',
@@ -113,7 +109,7 @@ const SongCard = (props: {
 
       const response = await fetch(url, options);
       data = await response.json();
-
+      console.log(data);
       try {
         await TrackPlayer.add({
           id: props.id,

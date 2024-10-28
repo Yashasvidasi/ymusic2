@@ -263,7 +263,7 @@ const PlayerPage = () => {
           const prevIndex = (i - 1 + myArray.length) % myArray.length;
           const checker = checkifdownloaded(myArray[prevIndex].id);
           if (checker === null) {
-            const url = `https://yt-api.p.rapidapi.com/dl?id=${myArray[prevIndex].id}`;
+            const url = `https://yt-api.p.rapidapi.com/dl?id=${myArray[prevIndex].id}&cgeo=IN`;
             let data;
             const options = {
               method: 'GET',
@@ -361,7 +361,7 @@ const PlayerPage = () => {
           const prevIndex = (i + 1 + myArray.length) % myArray.length;
           const checker = checkifdownloaded(myArray[prevIndex].id);
           if (checker === null) {
-            const url = `https://yt-api.p.rapidapi.com/dl?id=${myArray[prevIndex].id}`;
+            const url = `https://yt-api.p.rapidapi.com/dl?id=${myArray[prevIndex].id}&cgeo=IN`;
             let data;
             const options = {
               method: 'GET',

@@ -116,7 +116,7 @@ const PlaylistCard = (props: {
         }
         let songurl = '';
 
-        const url = `https://yt-api.p.rapidapi.com/dl?id=${props.id}`;
+        const url = `https://yt-api.p.rapidapi.com/dl?id=${props.id}&cgeo=IN`;
         let data;
         const options = {
           method: 'GET',
